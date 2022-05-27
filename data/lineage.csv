@@ -1,0 +1,5 @@
+Source_Type;Source_Name;Source_Column_Name;Target_Type;Target_Name;Target_Column_Name;Transformation
+SQL Server (Gold Copy);prodSS001.customer_account;State;Jupyter Notebook dataframe;account_df;State;None
+Jupyter Notebook dataframe;account_df;State;.csv file;Customer_Account.csv;State;None
+.csv file;Customer_Account.csv;State;Tableau DataSource;Customer_Account;State;None
+Tableau DataSource;Customer_Account;State;Tableau Dashboard;Customer Hot Spots;State (Final Target);None
